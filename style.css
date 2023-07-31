@@ -42,7 +42,7 @@
     padding: auto;
 }
 
-body{
+body, html{
     background-color: #c6f1ce;
     font-family:var(--fontepadrao) ;
 }
@@ -53,8 +53,8 @@ header{
 }
 
 header > h1{
-    font:normal bold 3.5em goodtimes, sans-serif;
-    padding: 30px;
+    font:normal bold 3em goodtimes, sans-serif;
+    padding: 10px;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 0px rgba(0,0,0,0.466);
@@ -68,7 +68,7 @@ header > h2 {
 }
 
 nav{
-    padding: 15px;
+    padding: 10px;
 }
 
 nav > a{
@@ -89,40 +89,37 @@ nav a:hover{
         padding: 20px;
         min-width: 320px;
         max-width: 1000px;
-        margin: auto;
         border-radius: 5px;
         box-shadow:0px 6px 20px 0px black;
-        margin-bottom: 15px;
         text-align: justify;
-        line-height: 1.5em;
-    }
+}
     
     .articsectitle{
         font-family: var(--fonteandroid);
         color: #284D2F;
         background-image:linear-gradient(to right,rgba(154, 219, 183, 0.479),rgba(148, 230, 190, 0));
-    }
+}
     
     footer{
-        background-color: rgb(21, 58, 21);
+        background-color: rgba(20, 54, 20, 0.842);
         text-align: center;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    }
+}
     
     footer > strong{
         color: white;
         font:italic lighter 1em 'Times New Roman', Times, serif;
-    }
+}
     
     
     .photos{
         display: block;
         width: 100%;
-    }
+}
     
     .fotopq{
         display: block;
-    }
+}
 
     .video{
        position: relative;
@@ -132,7 +129,7 @@ nav a:hover{
        margin-right: -10px;
        margin-bottom: 15px;
        padding-bottom: 59%;
-    }
+}
     
     div > iframe{
         position: absolute;
@@ -141,7 +138,7 @@ nav a:hover{
         width: 90%;
         height: 90%;    
     
-    }
+}
     
     .articphgraf{
         margin: 16px 0px;
@@ -150,18 +147,18 @@ nav a:hover{
         text-indent: 20px;
         line-height: 2.5em;
         font-family: bikoregular;
-    }
+}
     
        .articlink{
         color: #196307;
         text-decoration: none;
-    }    
+}    
     
     
     span{
             background-color: #48C85F;
             color: white;
-    }
+}
     
     aside {
         background-color: #48c85f59;
@@ -170,19 +167,19 @@ nav a:hover{
         padding: 0px;
         text-align: justify;
         text-indent: 20px;
-    }
+}
     
     aside p{
         margin: 15px 10px;
         text-align: justify;
-    }
+}
 
     h3{
         border: 15px solid #48C85F;
         border-radius:5px;
         background-color: #48C85F;
         color: white;
-        }
+}
     
     ul{
         list-style-type: '\2714\0020\0020';
@@ -190,4 +187,4 @@ nav a:hover{
         list-style-position: inside;
         padding: 0px;
         margin: 5px;
-    } 
+} 
