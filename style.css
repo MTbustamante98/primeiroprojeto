@@ -42,12 +42,12 @@
     padding: auto;
 }
 
-body, html{
+body, html {
     background-color: #c6f1ce;
     font-family:var(--fontepadrao) ;
 }
 
-header{
+header {
     background-image:linear-gradient(to top,rgb(9, 87, 9),rgba(28, 241, 142, 0.808));
     border-radius: 5px 5px;
 }
